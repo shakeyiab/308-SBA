@@ -267,7 +267,8 @@ console.log(l2assignment.id,L2assigment1avg())
         
         //console.log(array)
         function getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions){
-          return [[ firstlearner,avg1(),avg2(),learner1averge() ], [l2id,L2assigment1avg(),l2avg(),l2assigmentaverage()]];
+          return [[ firs
+          tlearner,avg1(),avg2(),learner1averge() ], [l2id,L2assigment1avg(),l2avg(),l2assigmentaverage()]];
 
         }
         console.log(getLearnerData())

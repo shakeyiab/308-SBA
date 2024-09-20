@@ -14,3 +14,4 @@ Implement error handling to manage potential code failures gracefully.
 ##in this program i have calculate 2 learners average grade from 2 assignments with different weights
 i have provided the learners id number,
 i have calulated each memebers average grade resulting it in a array
+;
