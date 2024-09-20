@@ -235,7 +235,10 @@ console.log(l2assignment.id,L2assigment1avg())
     submission: {
       submitted_at: "2023-03-07",
       score: 140}}
-
+//If an assignment is not yet due, do not include
+// it in the results or the average. Additionally, if the learner’s submission is late 
+//(submitted_at is past due_at),
+//deduct 10 percent of the total points possible from their score for that assignment.
             function l2assigmentaverage(l2assignment2,s2submission2score, ){
             if (l2assignment.due_at !== l2assignment1score.submitted_at) {
               return .93-.10
@@ -263,11 +266,13 @@ console.log(l2assignment.id,L2assigment1avg())
          }
         
         //console.log(array)
-        //function getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions){
-         
+        function getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions){
+          return [[ firstlearner,avg1(),avg2(),learner1averge() ], [l2id,L2assigment1avg(),l2avg(),l2assigmentaverage()]];
+
+        }
+        console.log(getLearnerData())
           
-          //write a functio that putput results //loop
-         //let result=array;
+        
          
             
     
@@ -276,11 +281,3 @@ console.log(l2assignment.id,L2assigment1avg())
 
       
           
-      //}
-   // ];
-  
-   // return result;
-  //}
-  
-  //const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
-  
